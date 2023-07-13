@@ -3,9 +3,6 @@ Few scripts to make working with Network Windows Configuration easier.
 
 ## 1. Change IP to Dynamic & Change IP to Static
 
-
-### How to get Interface Network Name: 
-
 change_ip_to_dynamic.txt
 change_ip_to_static.txt
 
@@ -19,6 +16,7 @@ netsh interface ip set address name = "Wi-Fi" dhcp
 netsh interface ip set address name = "Ethernet" static 10.1.51.95 255.255.255.0 10.1.51.1
 ```
 
+### How to get Interface Network Name: 
 Run cmd as administrator
 ```
 netsh interface show interface
