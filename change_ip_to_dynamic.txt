@@ -3,6 +3,7 @@
 ECHO I am changing IP adress to dynamic ... 
 
 :: Change address name = "Wi-Fi" to your interface network name... e.g. "Wi-Fi", "Ethernet1" ... 
+:: How to get Interface Network Name see https://github.com/CesurMurka/network-changes-cmd
 
 netsh interface ip set address name = "Wi-Fi" dhcp   :: This command changes IP of WiFi network to dynamic dhcp
 
