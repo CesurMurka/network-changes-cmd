@@ -1,0 +1,8 @@
+@ECHO off
+ECHO I am changing IP adress to static...
+netsh interface ip set address name = "Ethernet" static 10.1.51.95 255.255.255.0 10.1.51.1
+ECHO IP adress was changed. Bye bye 
+PAUSE
+goto end
+
+:end

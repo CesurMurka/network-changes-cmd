@@ -1,0 +1,8 @@
+@ECHO off
+ECHO I am changi IP adress to dynamic ... 
+netsh interface ip set address name = "Wi-Fi" dhcp
+ECHO IP was changed to dynamic. Bye byeeeeeee
+PAUSE
+goto end
+
+:end
