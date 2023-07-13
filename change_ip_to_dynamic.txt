@@ -1,8 +1,15 @@
 @ECHO off
-ECHO I am changi IP adress to dynamic ... 
-netsh interface ip set address name = "Wi-Fi" dhcp
+
+ECHO I am changing IP adress to dynamic ... 
+
+:: Change address name = "Wi-Fi" to your interface network name... e.g. "Wi-Fi", "Ethernet1" ... 
+
+netsh interface ip set address name = "Wi-Fi" dhcp   :: This command changes IP of WiFi network to dynamic dhcp
+
 ECHO IP was changed to dynamic. Bye byeeeeeee
+
 PAUSE
+
 goto end
 
 :end
